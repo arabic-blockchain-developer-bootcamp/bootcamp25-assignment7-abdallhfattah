@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Assignment7 is ERC20 {
     // Constructor to initialize the token
     // Fill in the parameters for the token name and symbol
-    constructor(string memory name_, string memory symbol_) ERC20(name_, symbol_) {
+    constructor() ERC20("Fusion", "Fsn") {
 
     }
 
